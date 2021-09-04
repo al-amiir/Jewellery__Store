@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  backdrop-filter: blur(10px);
+  background-color: #ffffff40;
+  box-shadow: -2px 3px 8px black;
+  position: fixed;
+  height: 8rem;
+  width: 100vw;
+  .logo {
+    font-size: 4rem;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__input {
+      padding: 10px;
+      border-radius: 4px;
+      width: 302px;
+      border: none;
+    }
+    &__button {
+      color: black;
+      background-color: #ffb40b;
+      border: 1px solid;
+      cursor: pointer;
+      margin-left: 6px;
+      box-shadow: 1px 2px 6px black;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rings</title>
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script defer src="./dist/js/productsPage.js"></script>
+  </head>
+  <body>
+    <span class="cart_alert_message"> Added Successfully To Cart </span>
+    <div class="pinkCloud">
+      <img
+        class="pinkCloud-image"
+        src="./material/sections/pinkCloud.jpg"
+        alt=""
+      />
+    </div>
+    <!-- background -->
+    <img
+      class="background"
+      src="./material/sections/product-background.jpg"
+      alt=""
+    />
+    <!-- overlay -->
+    <span class="overlay"></span>
+    <!-- cart  -->
+    <div class="cart"></div>
+    <!-- side bar  -->
+    <button class="button button__sidebar">
+      <span class="material-icons"> sort </span>
+    </button>
+    <div class="sidebar">
+      <button class="button collection__box-list--button">Ring</button>
+      <button class="button collection__box-list--button">Necklace</button>
+      <button class="button collection__box-list--button">Earing</button>
+      <button class="button collection__box-list--button">Nose</button>
+      <button class="button collection__box-list--button">Feet</button>
+      <button class="button collection__box-list--button">n</button>
+      <button class="button collection__box-list--button">n</button>
+      <button class="button collection__box-list--button">n</button>
+      <button class="button collection__box-list--button">n</button>
+      <button class="button collection__box-list--button">n</button>
+    </div>
+    <!-- Skew Transition  -->
+    <div class="singleProduct">
+      <span class="singleProduct__left">
+        <div>
+          <img class="singleProduct__left-image" alt="" />
+        </div>
+        <div class="singleProduct__img-thumbnails"></div>
+        <div class="singleProduct__button-box">
+          <button class="material-icons singleProduct__prev">
+            chevron_left
+          </button>
+          <button class="material-icons singleProduct__next">
+            navigate_next
+          </button>
+        </div>
+      </span>
+      <span class="singleProduct__right">
+        <button class="material-icons singleProduct__close">close</button>
+
+        <div class="singleProduct__right-part1">
+          <h1>header</h1>
+
+          <div class="singleProduct__right-part1-description">
+            <p>Description</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              adipisci quasi delectus architecto eius consectetur dolorem saepe
+              autem illum explicabo!
+            </p>
+          </div>
+          <div>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+          </div>
+          <div class="singleProduct__right-part1-price">
+            <p>$ 000</p>
+          </div>
+          <button class="singleProduct__right-part1-addToCart">
+            <span class="material-icons"> add_shopping_cart </span> ADD TO CART
+          </button>
+        </div>
+        <div class="singleProduct__right-part2">
+          <h1>Delivery & Returns</h1>
+          <div class="singleProduct__right-part2-location">
+            <p>Choose your location</p>
+            <input type="select" name="" id="" />
+            <input type="select" name="" id="" />
+          </div>
+          <div class="singleProduct__right-part2-terms">
+            <span class="material-icons"> local_shipping </span>
+            <span>
+              <p>Door Delivery</p>
+              <p>Shipping EGP 22</p>
+              <p>
+                Shipping EGP 22 Ready for delivery between 29 August & 30 August
+                when you order within next 22hrs 30mins
+              </p>
+            </span>
+          </div>
+          <div class="singleProduct__right-part2-terms">
+            <span class="material-icons"> map </span>
+            <span>
+              <p>Pickup Station</p>
+              <p>Shipping EGP 11</p>
+              <p>
+                Shipping EGP 22 Ready for delivery between 29 August & 30 August
+                when you order within next 22hrs 30mins
+              </p>
+            </span>
+          </div>
+          <div class="singleProduct__right-part2-terms">
+            <span class="material-icons"> undo </span>
+            <span>
+              <p>Door Delivery</p>
+              <p>Return Policy</p>
+              <p>
+                14 days free return (except for underwear and personal items) up
+                to 30 days for defective products with necessity for requesting
+                a return within 24 hours from the delivery date.
+              </p>
+            </span>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </span>
+    </div>
+    <!-- grid -->
+    <section class="products">
+      <!-- header -->
+      <div class="header">
+        <div class="logo"><h1>logo</h1></div>
+        <div class="search">
+          <input
+            class="search__input"
+            type="text"
+            name="search"
+            placeholder="Search Box..."
+          />
+          <button class="search__button">
+            <span class="material-icons"> saved_search </span>
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          "
+        >
+          <button>Account</button>
+          <button>Help</button>
+          <button class="button__cart">
+            <span class="material-icons">shopping_cart</span>
+          </button>
+        </div>
+      </div>
+      <!-- Product -->
+      <div class="row"></div>
+      <!-- paginition -->
+      <div class="paginition">
+        <button
+          class="material-icons button__paginition button__paginition-prev"
+        >
+          chevron_left
+        </button>
+        <span class="paginition__page">numbers</span>
+        <button
+          class="material-icons button__paginition button__paginition-next"
+        >
+          navigate_next
+        </button>
+      </div>
+    </section>
+  </body>
+</html>

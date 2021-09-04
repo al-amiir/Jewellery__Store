@@ -1,0 +1,47 @@
+.cart {
+  position: fixed;
+  z-index: 1000;
+  width: 280px;
+  max-height: 80vh;
+  top: 7rem;
+  background-color: #164d62a1;
+  right: -288px;
+  box-shadow: -6px 7px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 7px solid wheat;
+  border-radius: 4px;
+  backdrop-filter: blur(7px);
+  &__box {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+      border: 5px solid wheat;
+      border-radius: 5px;
+    }
+    span {
+      font-size: 3rem;
+      color: wheat;
+    }
+  }
+  &_alert_message {
+    opacity: 0;
+    position: fixed;
+    z-index: 4000;
+    width: 100vw;
+    height: 40px;
+    top: 10vw;
+    font-size: 2rem;
+    color: wheat;
+    background-color: #056b05b8;
+    padding: 7px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+}

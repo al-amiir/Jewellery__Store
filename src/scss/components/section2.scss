@@ -1,0 +1,17 @@
+.section2 {
+  position: relative;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+  &__img {
+    // position: absolute;
+    height: 100%;
+    transform: translateY(-469px);
+    grid-column: 2/3;
+  }
+  .text__container {
+    grid-column: 1/2;
+  }
+}

@@ -1,0 +1,39 @@
+.text__container {
+  display: flex;
+  flex-direction: column;
+  @include respond(phone) {
+    font-size: 1.8rem;
+  }
+  @include respond(meduim-phone) {
+    font-size: 1.5rem;
+  }
+  @include respond(small-phone) {
+    font-size: 1rem;
+  }
+  .text {
+    overflow: hidden;
+    text-align: center;
+
+    &__main {
+      font-family: "Tangerine", cursive;
+      color: #ff5353;
+      transform: translateY(100px);
+
+      h1 {
+        filter: drop-shadow(2px 4px 6px black);
+      }
+    }
+    &__address {
+      font-family: "Great Vibes", cursive;
+      color: #fdabab;
+      font-size: 2rem;
+      margin-top: 10px;
+      @include respond(phone) {
+        font-size: 1rem;
+      }
+      @include respond(small-phone) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

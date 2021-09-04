@@ -1,1 +1,2 @@
-# Jewellery__Store
+# Jewelry-Store
+E commercial Jewelry Store
