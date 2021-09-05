@@ -62,11 +62,11 @@ button {
     border: 2px solid;
     backdrop-filter: blur(6px);
     margin-top: 40px;
-    margin-right: 15px;
     grid-row: 2/3;
+    margin-right: 10px;
 
     &--down {
-      align-self: end;
+      margin-right: 60px;
     }
   }
   &__sidebar {

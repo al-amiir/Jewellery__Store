@@ -183,6 +183,8 @@ body {
 }
 .section1 button {
   justify-self: center;
+  align-self: end;
+  margin-right: 0;
 }
 
 .section2 {
@@ -319,11 +321,11 @@ button {
   border: 2px solid;
   backdrop-filter: blur(6px);
   margin-top: 40px;
-  margin-right: 15px;
   grid-row: 2/3;
+  margin-right: 10px;
 }
 .button__parallex--down {
-  align-self: end;
+  margin-right: 60px;
 }
 .button__sidebar {
   position: fixed;
