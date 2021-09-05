@@ -30,17 +30,17 @@
       }
     }
     &__img {
+      filter: drop-shadow(rgb(255, 83, 83) 0px 0px 8px);
       height: 100vh;
       @include respond(phone) {
-        height: 440px;
+        height: 300px;
       }
+
       @include respond(meduim-phone) {
-        // height: 345px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
       }
     }
   }
-
   .collection {
     position: fixed;
     top: 0;
@@ -73,6 +73,12 @@
       border: none;
       cursor: pointer;
       margin: 4px;
+      padding: 0px 5px 0px 5px;
+      transition: 0.4s;
+      letter-spacing: 8px;
+      &:hover {
+        background-color: #f3979b;
+      }
     }
   }
 }

@@ -7,8 +7,8 @@ button {
   font-family: "Merienda", cursive;
   background-color: transparent;
   border: none;
-  color: beige;
-  font-size: 4rem;
+  color: wheat;
+  font-size: 2rem;
   z-index: 10;
   cursor: pointer;
 
@@ -27,13 +27,27 @@ button {
       top: 15px;
       position: fixed;
       right: -70px;
+      color: rgb(220, 64, 66);
+    }
+    &--list {
+      transition: 0.5s;
+      padding: 9px;
+      margin: 12px;
+      border-radius: 3px;
+      letter-spacing: 4px;
+      &:hover {
+        background-color: #dc4042;
+        box-shadow: 0 0 10px #dc4142;
+      }
     }
   }
   &__collection {
-    width: 140px;
+    width: 128px;
     height: 45px;
-    font-size: 6rem;
+    font-size: 2rem;
     z-index: 1000;
+    background-color: #dc4042;
+    box-shadow: 0 0 20px #dc4142;
   }
 
   &__parallex {

@@ -43,21 +43,6 @@
         fill: #070c0c;
       }
     }
-    // .text__container {
-    //   top: -24px;
-    //   @include respond(tab-port) {
-    //     top: -11px;
-    //   }
-    //   @include respond(phone) {
-    //     top: -11px;
-    //   }
-    //   @include respond(meduim-phone) {
-    //     top: 2rem;
-    //   }
-    //   @include respond(small-phone) {
-    //     top: 4rem;
-    //   }
-    // }
     .name {
       h1 {
         color: #fdabab;
@@ -69,6 +54,7 @@
     }
   }
   &__text {
+    font-size: 3rem;
     grid-row: 2/3;
     grid-column: 1/-1;
     margin-top: 30px;

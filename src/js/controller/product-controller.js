@@ -17,19 +17,18 @@ import {
   paginitionPrevFunc,
 } from "../view/button/paginition";
 import anime from "animejs/lib/anime.es";
-import hoverEffect from "hover-effect";
 
 window.addEventListener("load", () => {
   anime({
     targets: ".pinkCloud-image",
     opacity: [1, 0],
     scale: [6.3, 1],
-    duration: 0, // 2000
+    duration: 2000,
     easing: "linear",
   });
   setTimeout(() => {
     document.querySelector(".pinkCloud").innerHTML = "";
-  }, 0); //2000
+  }, 2000);
   for (let i = 0; i < 3; i++) {
     createProduct("row", i);
   }
