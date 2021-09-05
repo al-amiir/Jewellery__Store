@@ -25,10 +25,13 @@
   }
   &__text {
     position: absolute;
-    top: 70vh;
+    top: 66vh;
     width: 100vw;
     backdrop-filter: blur(6px);
     background-color: #0408087d;
     padding: 9px;
+  }
+  button {
+    justify-self: center;
   }
 }
