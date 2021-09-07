@@ -329,7 +329,7 @@ button {
 }
 .button__sidebar {
   position: fixed;
-  left: 0;
+  left: 0px;
   top: 50vh;
   z-index: 1000;
   color: white;
