@@ -7,7 +7,10 @@ import anime from "animejs/lib/anime.es.js";
 
 export let typing = function (sectionNumber) {
   anime({
-    targets: `.section${sectionNumber} .text__container .text__main`,
+    targets: [
+      `.section${sectionNumber} .text__container .text__main`,
+      `.section${sectionNumber} .text__container .text__address`,
+    ],
     translateY: [100, 0],
     duration: 1000,
     opacity: [0, 1],

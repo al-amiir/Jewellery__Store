@@ -11,6 +11,9 @@ export let sectionDown = function (firstSction, secondSection) {
   document.querySelectorAll(".text__main").forEach((t) => {
     t.style.transform = "translateY(100px)";
   });
+  document.querySelectorAll(".text__address").forEach((t) => {
+    t.style.transform = "translateY(100px)";
+  });
   anime({
     targets: `.${firstSction}`,
     translateY: "-104vh",

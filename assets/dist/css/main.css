@@ -118,7 +118,7 @@ body {
   position: absolute;
   height: 100%;
   width: 8px;
-  background-color: #fdabab;
+  background-color: #eb5658;
   top: -104vh;
   filter: drop-shadow(2px 4px 12px #fdabab);
   border-radius: 16px;
@@ -131,6 +131,7 @@ body {
   fill: #070c0c;
 }
 .section0__diamond .name {
+  font-family: "Great Vibes", cursive;
   margin-top: 9rem;
 }
 .section0__diamond .name h1 {

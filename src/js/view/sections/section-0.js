@@ -49,7 +49,7 @@ export let section0Animation = function () {
           strokeDashoffset: [anime.setDashoffset, 0],
           easing: "easeOutQuad",
           duration: 800,
-          stroke: "#ffffff",
+          stroke: "rgb(239 88 90)",
           strokeWidth: "9px",
           delay: function (el, i) {
             return i * 50;
